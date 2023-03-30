@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: #f7f7f7;
+	color: #333;
+}
+
+header {
+	background-image: url('header-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+nav {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 20px;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+nav a:hover {
+	color: #ffc107;
+}
+
+.header-content {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.header-content h1 {
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+.header-content .btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #ffc107;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 30px;
+	transition: all 0.3s ease;
+}
+
+.header-content .btn:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+main {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.about-us h2,
+.courses h2,
+.contact-us h2 {
+	font-size: 36px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.about-us p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.courses ul {
+	list-style: none;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.courses li {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.contact-us form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+
+.contact-us label {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.contact-us input,
+.contact-us textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+}
+
+.contact-us input[type="submit"] {
+	background-color: #ffc107;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.contact-us input[type="submit"]:hover {
+	background-color: #333;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
