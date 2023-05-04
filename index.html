@@ -1,58 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ConfByte Academy</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<header>
-		<nav>
-			<a href="#">Home</a>
-			<a href="#">Login</a>
-			<a href="#">Courses</a>
-			<a href="#">About Us</a>
-			<a href="#">Career</a>
-			<a href="#">Contact Us</a>
-		</nav>
-		<div class="header-content">
-			<h1>ConfByte Academy</h1>
-			<p>A coding academy for rural and underserved African teenagers.</p>
-			<a href="#" class="btn btn-primary">Learn More</a>
-		</div>
-	</header>
-	<main>
-		<section class="about-us">
-			<h2>About Us</h2>
-			<p>ConfByte Academy is a teaching institution dedicated to providing quality coding education to rural and underserved African teenagers. We believe that every young person, regardless of their background or circumstances, should have the opportunity to learn valuable coding skills and pursue a career in the tech industry.</p>
-		</section>
-		<section class="courses">
-			<h2>Our Courses</h2>
-			<ul>
-				<li>Introduction to Programming</li>
-				<li>Introduction to Web Development</li>
-				<li>Mobile App Development</li>
-				<li>Game Development</li>
-				<li>Data Science and Analytics</li>
-			</ul>
-			<a href="#" class="btn btn-primary">View All Courses</a>
-		</section>
-		<section class="contact-us">
-			<h2>Contact Us</h2>
-			<form action="#" method="post">
-				<label for="name">Name</label>
-				<input type="text" id="name" name="name">
-				<label for="email">Email</label>
-				<input type="email" id="email" name="email">
-				<label for="message">Message</label>
-				<textarea id="message" name="message"></textarea>
-				<input type="submit" value="Send">
-			</form>
-		</section>
-	</main>
-	<footer>
-		<p>&copy; 2023 ConfByte Academy</p>
-	</footer>
-</body>
+<html>
+  <head>
+    <title>ConfByte Academy</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <h1>ConfByte Academy</h1>
+      <p class="p">Empowering underserved African teens with digital skills</p>
+    </header>
+    <main>
+      
+      <section class="sec1">
+        <h2>Mission</h2>
+        <p class="p1">We believe that every child deserves a chance to succeed in today's digital world. Our mission is to empower underserved African teens with the digital skills they need to thrive in the 21st century.</p>
+      </section>
+      <div style="text-align: center;">
+        <h2>Vision</h2>
+        <p>
+          At ConfByte, we have a bold vision of creating a world where every underserved African teen has the digital skills necessary to thrive in the 21st century. We envision a future where every child, regardless of their socioeconomic background, has the tools and knowledge needed to succeed in today's digital world.</p>
+
+<p>We believe that by empowering underserved African teens with digital skills, we are not only changing their lives but also transforming entire communities. Our vision is to break down the barriers that limit access to technology education and provide opportunities for all to learn and grow.</p>
+
+<p>We see a world where technology is not just a privilege for the few but a fundamental right for all. We envision a future where ConfByte is a beacon of hope for underserved African teens, providing them with the skills and resources needed to reach their full potential and achieve their dreams.</p>
+
+<p>Our vision is to make a lasting impact on the lives of underserved African teens and to be a driving force for positive change in our communities. At ConfByte, we are committed to creating a better future for all through the power of digital education.
+        </p>
+        
+      </div>
+      <section>
+        <h2>Our Courses</h2>
+        <ul>
+          <li>
+            <h3>Web Development</h3>
+            <p class="p2">Learn the fundamentals of web development, including HTML, CSS, and JavaScript.</p>
+          </li>
+          <li>
+            <h3>Mobile App Development</h3>
+            <p class="p3">Learn how to develop mobile applications for Android and iOS platforms.</p>
+          </li>
+          <li>
+            <h3>Data Science</h3>
+            <p class="p4">Learn how to analyze and interpret data using Python and other tools.</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Sign Up Now</h2>
+        
+          <form action="https://formspree.io/f/mayzvdpq" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    
+    </main>
+    <footer>
+      <p>&copy; 2023 ConfByte Academy. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>
